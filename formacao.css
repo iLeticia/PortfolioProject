@@ -1,9 +1,9 @@
-.formacao{
+.formacao {
     background: #141414;
     color: #ffffff;
 }
 
-.formacao-container{
+.formacao-container {
     max-width: 1200px;
     padding: 40px 20px;
     margin: 0 auto;
@@ -91,7 +91,7 @@
 }
 
 
- .cursos h3::before {
+.cursos h3::before {
     display: block;
     content: "";
     width: 24px;
@@ -107,12 +107,29 @@
 }
 
 
-.cursos h3::before{
+.cursos h3::before {
     background: url(/img/cursos.svg) no-repeat center center;
 }
 
 
-.idiomas h3::before{
+.idiomas h3::before {
     background: url(/img/idiomas.svg) no-repeat center center;
 }
 
+
+.formacao-extra li {
+    font-size: 1.125rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+
+.formacao-extra span {
+    color: #8f8f8f;
+}
+
+
+.curos li {
+    display: flex;
+    justify-content: space-between;
+}
